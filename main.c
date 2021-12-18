@@ -27,6 +27,6 @@ int main()
     sum_word = wordStrValue(w);
     printf("Anagram Sequences: ");
     Anagram(sum_word,st,st,arr);
-    return 1;
+    return 0;
 }
    
