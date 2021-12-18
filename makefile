@@ -13,6 +13,6 @@ at.o: at.c my_lib.h
 main.o: main.c my_lib.h
 	$(CC) $(FLAG) -c main.c
 Stringprog: Gen.o gimatria.o anag.o main.o
-	$(CC) $(FLAG) -o Stringprog Gen.o gimatria.o anag.o main.o at.o
+	$(CC) $(FLAG) -o stringProg Gen.o gimatria.o anag.o main.o at.o
 clean: 
 	rm -f *.o *.out *.h.ghc Stringprog
